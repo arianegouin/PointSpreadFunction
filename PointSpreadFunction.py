@@ -6,8 +6,9 @@ from scipy.optimize import curve_fit
 
 class CSVFile:
 
-    def __init__(self, name):
+    def __init__(self, name, type):
         self.name = name
+        self.type = type
 
     def read(self):
         with open('%s.csv' % self.name) as file:
@@ -15,33 +16,39 @@ class CSVFile:
             for row in reader:
                 yield row
 
-    def getZdata(self):
-        z = []
+    def getData(self):
         for row in self.read():
-            data = row[0]
-            try:
-                float(data)
-            except ValueError:
-                pass
-            else:
-                z.append(float(data))
-        return z
-
-    def getIntensityData(self):
-        for row in self.read():
-            numberOfBeads = len(row) - 1
+            numberOfBeads = len(row)
 
         for bead in range(numberOfBeads):
-            line = []
-            for row in self.read():
-                try:
-                    float(row[0])
-                except ValueError:
-                    pass
-                else:
-                    toAdd = float(row[bead + 1])
-                    line.append(toAdd)
-            yield line
+            xdata = []
+            ydata = []
+
+            if self.type == 'raw':
+                for row in self.read():
+                    point = row[bead].split(',')
+                    try:
+                        float(point[0])
+                    except ValueError:
+                        pass
+                    else:
+                        xdata.append(float(point[0]))
+                        ydata.append(float(point[1]))
+            elif self.type == 'organised':
+                numberOfBeads -= 1
+                for row in self.read():
+                    try:
+                        float(row[0])
+                    except ValueError:
+                        pass
+                    else:
+                        xdata.append(float(row[0]))
+                        ydata.append(float(row[bead]))
+            else:
+                print("Type is not recognized")
+                break
+
+            yield xdata, ydata
 
 
 class GaussianDistribution:
@@ -69,8 +76,7 @@ class GaussianDistribution:
         return fwhm
 
     def plotData(self):
-        return plt.plot(self.xdata, self.ydata)
-
+        return plt.plot(self.xdata, self.ydata, '.', markersize=16)
 
     def plotCurvefit(self):
         xMin = min(self.xdata)
@@ -90,17 +96,21 @@ if __name__ == '__main__':
               "\n- is correctly spelled"
               "\n- is of format .csv")
     else:
-        chosenFile = CSVFile('%s' % inputFileName)
+        inputFileType = input("Is your data raw or organised? (raw / organised) --> ").replace(" ", "")
+        chosenFile = CSVFile('%s' % inputFileName, '%s' % inputFileType)
 
-        zData = chosenFile.getZdata()
-        allIntensityData = chosenFile.getIntensityData()
-        showPlot = input("Would you like to show plot? (yes or no) ").replace(" ", "")
-        for iData in allIntensityData:
+        data = chosenFile.getData()
+        showPlot = input("Would you like to show plot? (yes / no) --> ").replace(" ", "")
+        for dataSet in data:
+            zData = dataSet[0]
+            iData = dataSet[1]
             bead = GaussianDistribution(zData, iData)
             c = bead.getFWHM(show=True)
             if showPlot == 'yes':
                 bead.plotData()
                 bead.plotCurvefit()
+                plt.title('FWHM = %s' % c)
                 plt.show()
             else:
                 pass
+

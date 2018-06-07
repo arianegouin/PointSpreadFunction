@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d262995-6a13-4483-a4cc-a25ed65d131e" name="Default" comment="" />
+    <list default="true" id="1d262995-6a13-4483-a4cc-a25ed65d131e" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zstack.csv" afterPath="$PROJECT_DIR$/raw.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zstack1.csv" afterPath="$PROJECT_DIR$/organised.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PointSpreadFunction.py" afterPath="$PROJECT_DIR$/PointSpreadFunction.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,35 +21,40 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="raw.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raw.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="101" column="24" lean-forward="false" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PointSpreadFunction.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PointSpreadFunction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="98" column="103" lean-forward="false" selection-start-line="98" selection-start-column="103" selection-end-line="98" selection-end-column="103" />
               <folding>
-                <element signature="e#120#1073#0" expanded="false" />
-                <element signature="e#154#170#0" expanded="false" />
-                <element signature="e#200#350#0" expanded="false" />
-                <element signature="e#253#350#0" expanded="false" />
-                <element signature="e#384#618#0" expanded="false" />
-                <element signature="e#435#601#0" expanded="false" />
-                <element signature="e#660#1073#0" expanded="false" />
-                <element signature="e#780#1073#0" expanded="false" />
-                <element signature="e#842#1050#0" expanded="false" />
-                <element signature="e#983#1050#0" expanded="false" />
-                <element signature="e#1151#1196#0" expanded="false" />
-                <element signature="e#1229#1368#0" expanded="false" />
-                <element signature="e#1236#1341#0" expanded="false" />
-                <element signature="e#1422#1468#0" expanded="false" />
-                <element signature="e#1501#1594#0" expanded="false" />
-                <element signature="e#1639#1770#0" expanded="false" />
+                <element signature="e#231#381#0" expanded="false" />
+                <element signature="e#284#381#0" expanded="false" />
+                <element signature="e#1493#2456#0" expanded="false" />
+                <element signature="e#1535#1580#0" expanded="false" />
+                <element signature="e#1613#1752#0" expanded="false" />
+                <element signature="e#1620#1725#0" expanded="false" />
+                <element signature="e#1806#1852#0" expanded="false" />
+                <element signature="e#1885#1978#0" expanded="false" />
+                <element signature="e#2023#2154#0" expanded="false" />
+                <element signature="e#2188#2247#0" expanded="false" />
+                <element signature="e#2285#2456#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zstack.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zstack.csv">
+      <file leaf-file-name="organised.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/organised.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -61,10 +72,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/PointSpreadFunction.py" />
       </list>
     </option>
   </component>
@@ -89,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -104,30 +118,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PointSpreadFunction" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.PointSpreadFunction">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,9 +290,8 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -307,12 +304,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.387471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.387471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -333,32 +330,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#120#1073#0" expanded="false" />
-            <element signature="e#154#170#0" expanded="false" />
-            <element signature="e#200#350#0" expanded="false" />
-            <element signature="e#253#350#0" expanded="false" />
-            <element signature="e#384#618#0" expanded="false" />
-            <element signature="e#435#601#0" expanded="false" />
-            <element signature="e#660#1073#0" expanded="false" />
-            <element signature="e#780#1073#0" expanded="false" />
-            <element signature="e#842#1050#0" expanded="false" />
-            <element signature="e#983#1050#0" expanded="false" />
-            <element signature="e#1151#1196#0" expanded="false" />
-            <element signature="e#1229#1368#0" expanded="false" />
-            <element signature="e#1236#1341#0" expanded="false" />
-            <element signature="e#1422#1468#0" expanded="false" />
-            <element signature="e#1501#1594#0" expanded="false" />
-            <element signature="e#1639#1770#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zstack.csv">
+    <entry file="file://$PROJECT_DIR$/raw.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -366,32 +338,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#120#1073#0" expanded="false" />
-            <element signature="e#154#170#0" expanded="false" />
-            <element signature="e#200#350#0" expanded="false" />
-            <element signature="e#253#350#0" expanded="false" />
-            <element signature="e#384#618#0" expanded="false" />
-            <element signature="e#435#601#0" expanded="false" />
-            <element signature="e#660#1073#0" expanded="false" />
-            <element signature="e#780#1073#0" expanded="false" />
-            <element signature="e#842#1050#0" expanded="false" />
-            <element signature="e#983#1050#0" expanded="false" />
-            <element signature="e#1151#1196#0" expanded="false" />
-            <element signature="e#1229#1368#0" expanded="false" />
-            <element signature="e#1236#1341#0" expanded="false" />
-            <element signature="e#1422#1468#0" expanded="false" />
-            <element signature="e#1501#1594#0" expanded="false" />
-            <element signature="e#1639#1770#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zstack.csv">
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/raw.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -399,27 +347,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/organised.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="101" column="24" lean-forward="false" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PointSpreadFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="98" column="103" lean-forward="false" selection-start-line="98" selection-start-column="103" selection-end-line="98" selection-end-column="103" />
           <folding>
-            <element signature="e#120#1073#0" expanded="false" />
-            <element signature="e#154#170#0" expanded="false" />
-            <element signature="e#200#350#0" expanded="false" />
-            <element signature="e#253#350#0" expanded="false" />
-            <element signature="e#384#618#0" expanded="false" />
-            <element signature="e#435#601#0" expanded="false" />
-            <element signature="e#660#1073#0" expanded="false" />
-            <element signature="e#780#1073#0" expanded="false" />
-            <element signature="e#842#1050#0" expanded="false" />
-            <element signature="e#983#1050#0" expanded="false" />
-            <element signature="e#1151#1196#0" expanded="false" />
-            <element signature="e#1229#1368#0" expanded="false" />
-            <element signature="e#1236#1341#0" expanded="false" />
-            <element signature="e#1422#1468#0" expanded="false" />
-            <element signature="e#1501#1594#0" expanded="false" />
-            <element signature="e#1639#1770#0" expanded="false" />
+            <element signature="e#231#381#0" expanded="false" />
+            <element signature="e#284#381#0" expanded="false" />
+            <element signature="e#1493#2456#0" expanded="false" />
+            <element signature="e#1535#1580#0" expanded="false" />
+            <element signature="e#1613#1752#0" expanded="false" />
+            <element signature="e#1620#1725#0" expanded="false" />
+            <element signature="e#1806#1852#0" expanded="false" />
+            <element signature="e#1885#1978#0" expanded="false" />
+            <element signature="e#2023#2154#0" expanded="false" />
+            <element signature="e#2188#2247#0" expanded="false" />
+            <element signature="e#2285#2456#0" expanded="false" />
           </folding>
         </state>
       </provider>
