@@ -27,7 +27,6 @@ class CSVFile:
             if self.type == 'raw':
                 for row in self.read():
                     point = row[bead].split(',')
-                    print(point)
                     try:
                         float(point[0])
                     except ValueError:
