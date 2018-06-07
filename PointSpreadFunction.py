@@ -18,7 +18,7 @@ class CSVFile:
 
     def getData(self):
         for row in self.read():
-            numberOfBeads = len(row)
+            numberOfBeads = len(row) if self.type == 'raw' else len(row) - 1
 
         for bead in range(numberOfBeads):
             xdata = []
@@ -34,8 +34,8 @@ class CSVFile:
                     else:
                         xdata.append(float(point[0]))
                         ydata.append(float(point[1]))
+
             elif self.type == 'organised':
-                numberOfBeads -= 1
                 for row in self.read():
                     try:
                         float(row[0])
@@ -43,10 +43,7 @@ class CSVFile:
                         pass
                     else:
                         xdata.append(float(row[0]))
-                        ydata.append(float(row[bead]))
-            else:
-                print("Type is not recognized")
-                break
+                        ydata.append(float(row[bead + 1]))
 
             yield xdata, ydata
 
@@ -87,6 +84,8 @@ class GaussianDistribution:
 
 if __name__ == '__main__':
 
+    keepGoing = False
+
     inputFileName = input("Enter file name (format .csv). Do not put extension. --> ")
     try:
         open('%s' % inputFileName + '.csv')
@@ -96,7 +95,21 @@ if __name__ == '__main__':
               "\n- is correctly spelled"
               "\n- is of format .csv")
     else:
-        inputFileType = input("Is your data raw or organised? (raw / organised) --> ").replace(" ", "")
+        keepGoing = True
+
+    if keepGoing is True:
+        inputFileType = input("Type: Is your data raw or organised? (raw / organised) --> ").replace(" ", "")
+
+        if (inputFileType in ('raw', 'organised')) is True:
+            keepGoing = True
+        else:
+            print('Type is not recognised.')
+            keepGoing = False
+    else:
+        inputFileType = None
+        pass
+
+    if keepGoing is True:
         chosenFile = CSVFile('%s' % inputFileName, '%s' % inputFileType)
 
         data = chosenFile.getData()
@@ -113,4 +126,6 @@ if __name__ == '__main__':
                 plt.show()
             else:
                 pass
+    else:
+        pass
 
