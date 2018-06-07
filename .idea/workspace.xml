@@ -4,7 +4,6 @@
     <list default="true" id="1d262995-6a13-4483-a4cc-a25ed65d131e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PointSpreadFunction.py" afterPath="$PROJECT_DIR$/PointSpreadFunction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw.csv" afterPath="$PROJECT_DIR$/raw.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/raw.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -32,39 +31,21 @@
       <file leaf-file-name="PointSpreadFunction.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PointSpreadFunction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state relative-caret-position="463">
+              <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
               <folding>
-                <element signature="e#120#1379#0" expanded="false" />
                 <element signature="e#160#201#0" expanded="false" />
-                <element signature="e#231#381#0" expanded="false" />
-                <element signature="e#284#381#0" expanded="false" />
-                <element signature="e#414#1379#0" expanded="false" />
-                <element signature="e#570#1379#0" expanded="false" />
-                <element signature="e#656#995#0" expanded="false" />
-                <element signature="e#700#995#0" expanded="false" />
-                <element signature="e#912#995#0" expanded="false" />
-                <element signature="e#1056#1347#0" expanded="false" />
-                <element signature="e#1100#1347#0" expanded="false" />
-                <element signature="e#1261#1347#0" expanded="false" />
-                <element signature="e#1415#2378#0" expanded="false" />
-                <element signature="e#1457#1502#0" expanded="false" />
-                <element signature="e#1535#1674#0" expanded="false" />
-                <element signature="e#1542#1647#0" expanded="false" />
-                <element signature="e#1728#1774#0" expanded="false" />
-                <element signature="e#1807#1900#0" expanded="false" />
-                <element signature="e#1945#2076#0" expanded="false" />
-                <element signature="e#2110#2169#0" expanded="false" />
-                <element signature="e#2207#2378#0" expanded="false" />
-                <element signature="e#2413#3840#0" expanded="false" />
-                <element signature="e#2610#2791#0" expanded="false" />
-                <element signature="e#2616#2790#0" expanded="false" />
-                <element signature="e#2862#3142#0" expanded="false" />
-                <element signature="e#3080#3142#0" expanded="false" />
-                <element signature="e#3161#3194#0" expanded="false" />
-                <element signature="e#3230#3817#0" expanded="false" />
-                <element signature="e#3463#3817#0" expanded="false" />
-                <element signature="e#3657#3778#0" expanded="false" />
+                <element signature="e#1089#1380#0" expanded="false" />
+                <element signature="e#1133#1380#0" expanded="false" />
+                <element signature="e#1294#1380#0" expanded="false" />
+                <element signature="e#1490#1535#0" expanded="false" />
+                <element signature="e#1568#1707#0" expanded="false" />
+                <element signature="e#1575#1680#0" expanded="false" />
+                <element signature="e#1761#1807#0" expanded="false" />
+                <element signature="e#1840#1933#0" expanded="false" />
+                <element signature="e#1978#2109#0" expanded="false" />
+                <element signature="e#2143#2202#0" expanded="false" />
+                <element signature="e#2240#2411#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,7 +118,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,23 +138,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PointSpreadFunction" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PointSpreadFunction" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PointSpreadFunction" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PointSpreadFunction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -325,14 +289,12 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PointSpreadFunction" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.PointSpreadFunction" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +308,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.387471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37354988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -369,6 +331,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/raw.csv">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PointSpreadFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#160#201#0" expanded="false" />
+            <element signature="e#1089#1380#0" expanded="false" />
+            <element signature="e#1133#1380#0" expanded="false" />
+            <element signature="e#1294#1380#0" expanded="false" />
+            <element signature="e#1490#1535#0" expanded="false" />
+            <element signature="e#1568#1707#0" expanded="false" />
+            <element signature="e#1575#1680#0" expanded="false" />
+            <element signature="e#1761#1807#0" expanded="false" />
+            <element signature="e#1840#1933#0" expanded="false" />
+            <element signature="e#1978#2109#0" expanded="false" />
+            <element signature="e#2143#2202#0" expanded="false" />
+            <element signature="e#2240#2411#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organised.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw.csv">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -380,36 +379,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#120#1379#0" expanded="false" />
             <element signature="e#160#201#0" expanded="false" />
-            <element signature="e#231#381#0" expanded="false" />
-            <element signature="e#284#381#0" expanded="false" />
-            <element signature="e#414#1379#0" expanded="false" />
-            <element signature="e#570#1379#0" expanded="false" />
-            <element signature="e#656#995#0" expanded="false" />
-            <element signature="e#700#995#0" expanded="false" />
-            <element signature="e#912#995#0" expanded="false" />
-            <element signature="e#1056#1347#0" expanded="false" />
-            <element signature="e#1100#1347#0" expanded="false" />
-            <element signature="e#1261#1347#0" expanded="false" />
-            <element signature="e#1415#2378#0" expanded="false" />
-            <element signature="e#1457#1502#0" expanded="false" />
-            <element signature="e#1535#1674#0" expanded="false" />
-            <element signature="e#1542#1647#0" expanded="false" />
-            <element signature="e#1728#1774#0" expanded="false" />
-            <element signature="e#1807#1900#0" expanded="false" />
-            <element signature="e#1945#2076#0" expanded="false" />
-            <element signature="e#2110#2169#0" expanded="false" />
-            <element signature="e#2207#2378#0" expanded="false" />
-            <element signature="e#2413#3840#0" expanded="false" />
-            <element signature="e#2610#2791#0" expanded="false" />
-            <element signature="e#2616#2790#0" expanded="false" />
-            <element signature="e#2862#3142#0" expanded="false" />
-            <element signature="e#3080#3142#0" expanded="false" />
-            <element signature="e#3161#3194#0" expanded="false" />
-            <element signature="e#3230#3817#0" expanded="false" />
-            <element signature="e#3463#3817#0" expanded="false" />
-            <element signature="e#3657#3778#0" expanded="false" />
+            <element signature="e#1089#1380#0" expanded="false" />
+            <element signature="e#1133#1380#0" expanded="false" />
+            <element signature="e#1294#1380#0" expanded="false" />
+            <element signature="e#1490#1535#0" expanded="false" />
+            <element signature="e#1568#1707#0" expanded="false" />
+            <element signature="e#1575#1680#0" expanded="false" />
+            <element signature="e#1761#1807#0" expanded="false" />
+            <element signature="e#1840#1933#0" expanded="false" />
+            <element signature="e#1978#2109#0" expanded="false" />
+            <element signature="e#2143#2202#0" expanded="false" />
+            <element signature="e#2240#2411#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -441,14 +422,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/raw.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/organised.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -457,41 +430,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/raw.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PointSpreadFunction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state relative-caret-position="463">
+          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
           <folding>
-            <element signature="e#120#1379#0" expanded="false" />
             <element signature="e#160#201#0" expanded="false" />
-            <element signature="e#231#381#0" expanded="false" />
-            <element signature="e#284#381#0" expanded="false" />
-            <element signature="e#414#1379#0" expanded="false" />
-            <element signature="e#570#1379#0" expanded="false" />
-            <element signature="e#656#995#0" expanded="false" />
-            <element signature="e#700#995#0" expanded="false" />
-            <element signature="e#912#995#0" expanded="false" />
-            <element signature="e#1056#1347#0" expanded="false" />
-            <element signature="e#1100#1347#0" expanded="false" />
-            <element signature="e#1261#1347#0" expanded="false" />
-            <element signature="e#1415#2378#0" expanded="false" />
-            <element signature="e#1457#1502#0" expanded="false" />
-            <element signature="e#1535#1674#0" expanded="false" />
-            <element signature="e#1542#1647#0" expanded="false" />
-            <element signature="e#1728#1774#0" expanded="false" />
-            <element signature="e#1807#1900#0" expanded="false" />
-            <element signature="e#1945#2076#0" expanded="false" />
-            <element signature="e#2110#2169#0" expanded="false" />
-            <element signature="e#2207#2378#0" expanded="false" />
-            <element signature="e#2413#3840#0" expanded="false" />
-            <element signature="e#2610#2791#0" expanded="false" />
-            <element signature="e#2616#2790#0" expanded="false" />
-            <element signature="e#2862#3142#0" expanded="false" />
-            <element signature="e#3080#3142#0" expanded="false" />
-            <element signature="e#3161#3194#0" expanded="false" />
-            <element signature="e#3230#3817#0" expanded="false" />
-            <element signature="e#3463#3817#0" expanded="false" />
-            <element signature="e#3657#3778#0" expanded="false" />
+            <element signature="e#1089#1380#0" expanded="false" />
+            <element signature="e#1133#1380#0" expanded="false" />
+            <element signature="e#1294#1380#0" expanded="false" />
+            <element signature="e#1490#1535#0" expanded="false" />
+            <element signature="e#1568#1707#0" expanded="false" />
+            <element signature="e#1575#1680#0" expanded="false" />
+            <element signature="e#1761#1807#0" expanded="false" />
+            <element signature="e#1840#1933#0" expanded="false" />
+            <element signature="e#1978#2109#0" expanded="false" />
+            <element signature="e#2143#2202#0" expanded="false" />
+            <element signature="e#2240#2411#0" expanded="false" />
           </folding>
         </state>
       </provider>
